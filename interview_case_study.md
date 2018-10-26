@@ -33,6 +33,7 @@ To combine our separate files with the specific columns we worked on, we all exp
 <br>
 <br>
 ![](msno.png)
+
 **Figure 1. Missing Values**
 
 <h3> Modeling </h3>
@@ -42,6 +43,7 @@ To combine our separate files with the specific columns we worked on, we all exp
 4. Looked at the influence scores of the feature
 
 ![](Infl_scores2.png)
+
 **Figure 2. Influence scores**
 
 5. Fit AdaBoost & Gradient Boosting Classifier to compare models
