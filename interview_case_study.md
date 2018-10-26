@@ -38,9 +38,13 @@ To combine our separate files with the specific columns we worked on, we all exp
 
 <h3> Modeling </h3>
 1. Split into train and test
+<br>
 2. Stratified with respect to y in order to account for any class imbalance (63/36)
+<br>
 3. Started with Random Forest Classifier
+<br>
 4. Looked at the influence scores of the feature
+<br>
 
 ![](Infl_scores2.png)
 
