@@ -32,6 +32,7 @@
 To combine our separate files with the specific columns we worked on, we all exported our columns to our own CSV and then combined these together into a new dataframe. Upon merging we dropped our NaN values.
 <br>
 <br>
+
 ![](msno.png)
 
 **Figure 1. Missing Values**
