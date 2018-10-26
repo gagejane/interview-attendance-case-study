@@ -39,9 +39,12 @@ To combine our separate files with the specific columns we worked on, we all exp
 <h3> Modeling </h3>
 1. Split into train and test
 <br>
+<br>
 2. Stratified with respect to y in order to account for any class imbalance (63/36)
 <br>
+<br>
 3. Started with Random Forest Classifier
+<br>
 <br>
 4. Looked at the influence scores of the feature
 <br>
@@ -51,6 +54,7 @@ To combine our separate files with the specific columns we worked on, we all exp
 **Figure 2. Influence scores**
 
 5. Fit AdaBoost & Gradient Boosting Classifier to compare models
+<br>
 <br>
 6. Calculated metrics for all models
 <br>
