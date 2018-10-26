@@ -51,12 +51,9 @@ To combine our separate files with the specific columns we worked on, we all exp
 **Figure 2. Influence scores**
 
 5. Fit AdaBoost & Gradient Boosting Classifier to compare models
-<br>
 6. Calculated metrics for all models
 <br>
-More false positives than false negatives
-<br>
-Predicted more people were going to show up than actually did
+More false positives than false negatives. Predicted more people were going to show up than actually did
 
 
 |Metrics   |Score   |
