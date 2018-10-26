@@ -53,7 +53,7 @@ To combine our separate files with the specific columns we worked on, we all exp
 5. Fit AdaBoost & Gradient Boosting Classifier to compare models
 6. Calculated metrics for all models
 
-More false positives than false negatives. Predicted more people were going to show up than actually did
+   More false positives than false negatives. Predicted more people were going to show up than actually did.
 <br>
 
 |Metrics   |Score   |
