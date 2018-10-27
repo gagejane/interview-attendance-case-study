@@ -1,12 +1,12 @@
 # Interview Attendance Case Study
 
-### Team: Ryan Curry, Emily Quigley, Millie Smith, Jane Stout
+#### Team: Ryan Curry, Emily Quigley, Millie Smith, Jane Stout
 
 
-#### Agenda
- 10:00 - 10:30 Team meeting
+### Working Agenda
+ 10:00 - 10:30 Team meeting to strategize
 <br>
- 10:30 - 12:00 EDA which turned into leaning
+ 10:30 - 12:00 Cleaning + EDA
 <br>
  12:00 - 12:20 Team meeting to share results
 <br>
@@ -14,14 +14,14 @@
 <br>
  3:00  -  4:00 Markdown and GitHub
 
-#### Data Cleaning
+### Data Cleaning
 1. Broke columns and tasks out between the 4 of us for efficient cleaning
 2. Retitled column names by removing spaces and creating shorter names
 3. Explored data by using .unique() and .value_counts()
 4. Simplified values by combining ["No","no","not yet"] into a single value
 5. Converted to binary including dummy variables for columns such as location
 
-#### Data Merging
+### Data Merging
 To combine our separate files with the specific columns we worked on, we all exported our columns to our own CSV and then combined these together into a new dataframe. Upon merging, we dropped our NaN values. Figure 1 provides a visualization of NaN values across variables.
 <br>
 <br>
@@ -30,7 +30,7 @@ To combine our separate files with the specific columns we worked on, we all exp
 
 **Figure 1. Missing Values**
 
-#### Modeling
+### Modeling
 1. Split into train and test
 2. Stratified with respect to y in order to account for any class imbalance (63:36)
 3. Started with Random Forest Classifier
@@ -60,6 +60,6 @@ We found more false positives than false negatives. That is, we predicted more p
 **Table 1. Metrics scores**
 <br>
 
-#### Future Work
+### Future Work
 * Tune hyperparameters
 * Use K-Nearest Neighbors for NaN values
