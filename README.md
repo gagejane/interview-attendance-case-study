@@ -1,8 +1,9 @@
-<h1> Interview Attendance Case Study </h1>
+# Interview Attendance Case Study
 
-<h6>Team: Ryan Curry, Emily Quigley, Millie Smith, Jane Stout </h6>
+### Team: Ryan Curry, Emily Quigley, Millie Smith, Jane Stout
 
-<h3> Agenda </h3>
+
+#### Agenda
  10:00 - 10:30 Team meeting
 <br>
  10:30 - 12:00 EDA which turned into leaning
@@ -13,22 +14,14 @@
 <br>
  3:00  -  4:00 Markdown and GitHub
 
-<h3> Data Cleaning </h3>
+#### Data Cleaning
 1. Broke columns and tasks out between the 4 of us for efficient cleaning
-<br>
-<br>
 2. Retitled column names by removing spaces and creating shorter names
-<br>
-<br>
 3. Explored data by using .unique() and .value_counts()
-<br>
-<br>
 4. Simplified values by combining ["No","no","not yet"] into a single value
-<br>
-<br>
 5. Converted to binary including dummy variables for columns such as location
 
-<h3> Data Merging </h3>
+#### Data Merging
 To combine our separate files with the specific columns we worked on, we all exported our columns to our own CSV and then combined these together into a new dataframe. Upon merging, we dropped our NaN values. Figure 1 provides a visualization of NaN values across variables.
 <br>
 <br>
@@ -37,31 +30,19 @@ To combine our separate files with the specific columns we worked on, we all exp
 
 **Figure 1. Missing Values**
 
-<h3> Modeling </h3>
+#### Modeling
 1. Split into train and test
-<br>
-<br>
-2. Stratified with respect to y in order to account for any class imbalance (63/36)
-<br>
-<br>
+2. Stratified with respect to y in order to account for any class imbalance (63:36)
 3. Started with Random Forest Classifier
-<br>
-<br>
 4. Looked at the influence scores of the feature (see Figure 2)
-<br>
 
 ![](Infl_scores2.png)
 
 **Figure 2. Influence scores**
 
 5. Fit AdaBoost & Gradient Boosting Classifier to compare models
-<br>
-<br>
 6. Calculated metrics for all models (see Table 1)
-<br>
-More false positives than false negatives
-<br>
-Predicted more people were going to show up than actually did
+We found more false positives than false negatives. That is, we predicted more people were going to show up than actually did.
 
 
 |Metrics   |Score   |
@@ -79,6 +60,6 @@ Predicted more people were going to show up than actually did
 **Table 1. Metrics scores**
 <br>
 
-### Future Work
+#### Future Work
 * Tune hyperparameters
 * Use K-Nearest Neighbors for NaN values
