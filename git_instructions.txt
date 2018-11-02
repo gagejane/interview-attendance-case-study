@@ -1,0 +1,29 @@
+
+Person who is the master merger:
+Fork it and send link to colleagues
+Other people fork my repo.
+
+make a branch where you have forked
+get to work!
+
+when finished:
+push your work to your branch: git push origin <branch name>
+after everyone else has pushed their work to git:
+git checkout <partner1 branch>
+git branch (just check you're on the partner's branch)
+git checkout master
+git merge <partner1 branch>
+git checkout <partner2 branch>
+git branch (to check you're on partner2)
+git checkout master
+git merge <partner2 branch>
+git checkout <partner3 branch>
+git checkout master
+git merge <partner3>
+git checkout <self branch>
+git checkout master
+git merge <self branch>
+
+ls (is everything there??)
+
+git log (keep pressing RETURN to see all partners' commit comments)
